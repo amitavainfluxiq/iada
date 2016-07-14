@@ -1,0 +1,134 @@
+@media(max-width:1199px) {
+    .header .container {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-nav > li > a {
+        padding-bottom: 38px;
+        padding-top: 38px;
+        padding-left: 15px;
+        padding-right:15px;
+    }
+
+    .footerblock1 .container{ width: 845px; margin: 76px auto;}
+
+    .footerblock1 .container .footerright{ width: 523px; float: right;}
+
+    .footerblock1 .container .footerright .footercontactform{ width: 220px; float: left;}
+
+    .footerblock1 .container .footerright .footercontactaddress{ width: 263px; float: right; margin-right: 0px;}
+
+
+    .footerblock1 .container .footerleft{ width: 280px; float: left; margin-left: 0px;}
+
+
+
+}
+@media(max-width:991px) {
+
+    .header .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-default .navbar-brand {
+        display: block;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .headerright {
+        width: 100%;
+        float: left;
+    }
+    .navbar-nav > li > a {
+        padding-bottom: 14px;
+        padding-top: 14px;
+        padding-left: 20px;
+        padding-right: 20px; text-align: center;
+    }
+    .logo {
+        float: none;
+        text-align: center;
+    }
+    .navbar-nav {
+        width: 100%;
+    }
+    .headerright .navbar-header {
+        float: none; background: #003a80; padding:0 10px;
+    }
+
+    .navbar-brand{ height: auto;  font-family:'Raleway-Regular';   padding: 16px 15px 15px 15px;}
+
+    .navbar-toggle{ margin: 4px 0 0 0; }
+    .headerright .navbar-toggle {
+        display: block;
+        border:none!important
+    }
+    .headerright .navbar-collapse.collapse {
+        display: none!important;
+        border:none!important
+    }
+    .headerright .navbar-nav {
+        float: none!important;
+        border:none!important
+    }
+    .headerright .navbar-nav>li {
+        float: none;
+    }
+    .headerright .collapse.in {
+        display: block !important;
+    }
+    .navbar-collapse {
+        padding:0;
+    }
+    .headerright .navbar-header {
+        border-bottom:solid 1px #282828!important;
+    }
+    .headerright ul li {
+        border-bottom:solid 1px #eef5fd;
+        padding:0 0; background: #003a80;
+    }
+    .headerright ul li a {
+        display:block;
+        padding:12px 10px;
+    }
+    .headerright ul li a:hover {
+        color:#fff!important;
+    }
+    .headerright ul li a.active {
+        color:#fff!important;
+    }
+    .headerright ul li:last-child {
+        border:none;
+    }
+
+    .header{position: inherit;}
+    .banner {position: relative; top: 0px; z-index: -1;}
+
+
+
+    .footerblock1 .container{ width: 90%; margin: 50px auto;}
+
+    .footerblock1 .container .footerright{ width: 100%; float: none; margin: 0 auto;}
+
+    .footerblock1 .container .footerright .footercontactform{ width: 100%; float: none;}
+
+    .footerblock1 .container .footerright .footercontactaddress{ width: 100%; float: none; margin-top: 40px; margin-right: 0px;}
+
+
+    .footerblock1 .container .footerleft{ width: 100%; float: none; margin-top: 40px; margin-left: 0px;}
+}
+
+
+@media(max-width:767px) {
+
+    .homebannerblock {position: relative; overflow: hidden;}
+    .homebannerblock img{width:140%; }
+
+    .footerblock2{ background: #224d63; padding: 15px 0; text-align: center;}
+    .footerblock2 ul{ display: block;}
+    .footerblock2 ul li{ display: block; margin: 0; padding: 15px 0; border-bottom: solid 1px #16435b;}
+
+    .footerblock2 ul li:last-of-type{ border-bottom: none;}
+}
